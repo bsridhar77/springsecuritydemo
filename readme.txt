@@ -2,11 +2,11 @@ This sample project is cloned from https://github.com/spring-guides/gs-securing-
 
 The only change I made to this project is as follows,
 
-In WebSecurityConfig.java, I have added on line 15, the below code,
+In WebSecurityConfig.java (https://github.com/bsridhar77/springsecuritydemo/blob/master/src/main/java/hello/WebSecurityConfig.java), I have added on line 15, the below code,
 http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
 After adding this code,and after successfully authenticating I still am challenged with
-the login page from every page I accessin the app.
+the login page from every page I accessing the app.
 
 This is the issue I am facing.
 
